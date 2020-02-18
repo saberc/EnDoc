@@ -1,0 +1,107 @@
+[id='getting-started-app-builder']
+:sectnums:
+:imagesdir: images/
+
+= GETTING STARTED WITH ENTANDO
+
+== SAMPLE MORTGAGE APPLICATION
+
+=== PREFACE
+The Entando App Builder helps you create a variety of applications and integrate them with Red Hat BPM. It uses an intuitive UI, reusable templates, and drag-and-drop functionality that allows you to participate in every stage of the application design process regardless of your level of coding knowledge.
+
+//RESTORE THIS PARAGRAPH WITH THE LENDING APPLICATION
+//This demonstration walks through creating two applications in a mortgage lending process: an applicant page and an lender page. Both pages will integrate with Red Hat BPM.
+
+This demonstration walks through creating an applicant page for a mortgage application, and then integrates with Red Hat PAM.
+
+*Prerequisites:*
+
+* Entando MApp Engine and App Builder installed
+
+=== CONFIGURING THE APPLICANT PAGE
+The Applicant page is a public-facing webpage.
+
+==== CREATING A NEW PAGE MODEL
+Page models are reusable templates. They determine the page layout via frames into which you can then drag and drop content and widgets.
+
+image::custom_pagemodel.png[]
+
+.To create a new page model:
+. Open the Entando App Builder.
+. From the tabs along the top, select UX Patterns > Page Models > *Add*.
+. Assign the page model a code and a name. Codes represent the page model’s unique identifier. The name can be more human readable. For example: +
+*Code:* _entando$$_$$page$$_$$purple_ +
+*Name:* _Purple - BPM_
+. In the JSON Configuration field, enter JSON content to structure the page. See the following text for an example.
++
+[source, java]
+----
+include::example1.json[]
+----
+[#template]
+. In the Template field, enter XML formatting to determine where each defined frame belongs and how to render it. See the example content below:
++
+[source, html]
+----
+include::example2.html[]
+----
+. When finished, click *Save*.
+
+==== CREATE THE APPLICANT PAGE
+
+. From the tabs along the top, select Page Designer > Page Tree > *Add*.
+. Enter a page title and a code. The Code field will auto-populate with a value similar to the Title and acts as the page’s unique identifier. For example:
+* *Title:* _Application Home_
+* *Code:* _application$$_$$home_
+. From the Select Page Placement drop-down menu, select the page to act as this page’s hierarchical parent.
+. In the Page Groups section, select an Owner Group and a Join Group.
+* Owner Group members have administrative access to this page
+* Join Group members are able to see the page
+. In the Settings section, select the page model you just created from the Page Model drop-down menu. Once selected, set the options for the remaining options in the Settings section.
+. Click *Save and Configure*. This opens the Page Configuration screen.
+
+==== ADD WIDGETS
+. On the Page Configuration screen, locate the Widgets section on the right side of the screen.
++
+image::custom_configure.png[]
++
+. Search for the following widgets and drag them into the specified frame:
+* Choose a language purple/light and drag to Top Bar 4
+* Main banner purple and drag to Central Bar 1
+* Left 3 steps purple and drag to Central Bar Left
+* Right col help purple and drag to Central Bar Right
+* Banner advisor purple/light and drag to Banner Advisor
++
+TIP: Click the *Preview* button to verify the appearance of the page before publishing.
++
+. When the widgets are in place and you are satisfied with the preview, click *Publish*.
+
+TIP: Only click *Publish* after confirming that each widget has been configured properly.
+
+==== INTEGRATE THE BPM FORM
+. From the tabs along the top, choose Integrations > Red Hat PAM Config > Add Integration.
++
+image::custom_integrations.png[]
++
+. In the Connection section, add all server information. For example: +
+* General Settings section:
+** *Active:* On
+** (Optional) *Debug:* On
+* Connection section:
+** *Name:* My Application
+** *Host name:* <my.redhat.pamInstance.com>
+** *Schema:* http
+** *Port:* 8080
+** *Webapp name:* kie-server
+** *Username:* username for the process server administrator
+** *Password:* password for the process server administrator
+** *Conn. Timeout (in millis):* 500
+
+. Click *Test Connection* to verify a valid the configuration, then click *Save*.
+. Open the Page Tree by choosing the Page Designer tab > Page Tree.
+. Find your new page in the Page Tree and click its *More Options* button > Configure.
+. Search for the “BPM-form by Data Type” widget and drag it to the Central Bar Center frame.
+. Click the *Preview* button to verify the correct appearance.
+. Click *Publish*.
+
+include::rh-getting-started.adoc[leveloffset=+1]
