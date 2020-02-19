@@ -12,7 +12,7 @@ The Content Type is a construct used to represent or to model a Content. It  is 
 Creating Contents Types is fairly simple. The Content Types are managed through the Web CMS, its user interface is made available in the App Builder application.
 -	From App Builder, select the CMS section and click on Content Types subsection
 
-![ContentTypes1.png](docs/draft /CMS/Images/ContentTypes1.png)
+![ContentTypes1](Images/ContentTypes1.png)
 
 
 -	Click on the Add Content Type button to create a new Content Type and to add it to the list.
