@@ -26,6 +26,7 @@ To create an additional Content and add it to the list
 +
 
 Select the *Add Content* button. A drop-down list will let you choose which Content Type the content will be based on.
+
 image:extracted-media/media/Content2.png[image,width=634,height=240]
 
 
@@ -71,7 +72,6 @@ You will be asked to provide the information in distinct sections
 
 *Content Attributes.* You must fill out the attributes fields defined by the content types on which the content is based. It is mandatory.
 
-
 image:extracted-media/media/Content3.png[image,width=642,height=578]
 
 At least the additional content is added and displayed in the list by selecting
@@ -85,7 +85,6 @@ At least the additional content is added and displayed in the list by selecting
 +
 
 *Save and Approve* button. The content will be saved, approved and published.
-
 
 === image:extracted-media/media/Content4.png[image,width=642,height=240]
 
@@ -110,6 +109,7 @@ You can list the contents by filtering with
 +
 
 *Approved*. All created contents that have been saved and approved by clicking on the *Save and Approve* button. It has been published.
+
 image:extracted-media/media/Content5.png[image,width=615,height=237]
 
 
@@ -147,6 +147,6 @@ Unpublish, making the content invisible
 
 image:extracted-media/media/Content7.png[image,width=642,height=282]
 
-mmimage:extracted-media/media/Content8.png[image,width=642,height=249]
-
 The contents list can be saved in your file system, by clicking the Download button and selecting CSV or XLS format.
+
+image:extracted-media/media/Content8.png[image,width=642,height=249]
