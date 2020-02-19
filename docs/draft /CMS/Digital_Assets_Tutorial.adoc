@@ -12,7 +12,7 @@ The WEB CMS includes capabilities that let you manage contents and digital asset
 
 *Supported image formats*: jpg, jpeg, png
 
-===
+
 
 === How to create a Digital Asset
 
@@ -23,7 +23,7 @@ To manage the Digital Assets through the Web CMS integrated with App Builder app
 
 Select the CMS section and click on the Digital Assets subsection
 
-image:extracted-media/media/image2.png[image,width=642,height=316]
+image:extracted-media/media/DigitalAssets1.png[image,width=642,height=316]
 
 Add a new image or a new document file
 
@@ -33,7 +33,7 @@ Add a new image or a new document file
 Press the *Drag and Drop or Browse your computer* button and choose, from your file system, images and documents files that you would like to upload
 
 
-image:extracted-media/media/image4.png[image,width=642,height=310]
+image:extracted-media/media/DigitalAssets2.png[image,width=642,height=310]
 
 * {blank}
 +
@@ -41,7 +41,7 @@ image:extracted-media/media/image4.png[image,width=642,height=310]
 From the *Add file* modal window, you must choose one the available Groups and then the *Upload* button. If categories have been defined and displayed , you can join the file with the categories you want.
 
 
-image:extracted-media/media/image5.png[image,width=642,height=266]
+image:extracted-media/media/DigitalAssets3.png[image,width=642,height=266]
 
 * {blank}
 +
@@ -113,7 +113,7 @@ Furthermore, the interface lets you perform all management actions, as:
 *Delete:* remove the resource
 
 
-image:extracted-media/media/image3.png[image,width=642,height=310]
+image:extracted-media/media/DigitalAssets4.png[image,width=642,height=310]
 
 You can list the contents by filtering with:
 
@@ -133,4 +133,4 @@ You can list the contents by filtering with:
 **Attachments**footnote:[The Attachments name will be updated to the Documents name; the same for the Files label.]: All added documents are displayed
 
 
-image:extracted-media/media/image6.png[image,width=642,height=308]
+image:extracted-media/media/DigitalAssets5.png[image,width=642,height=308]
