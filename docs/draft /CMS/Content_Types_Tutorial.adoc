@@ -15,16 +15,16 @@ Creating Contents Types is fairly simple. The Content Types are managed through 
 * {blank}
 +
 
-From App Builder, select the CMS section and click on Content Types subsection
+From App Builder, select the CMS section and click on Content Types subsection.
 
-image:extracted-media/media/image6.png[image,width=610,height=249]
+image:extracted-media/media/ContentTypes1.png[image,width=642,height=172]
 
 * {blank}
 +
 
 Click on the Add *Content Type button* to create a new Content Type and to add it to the list.
 
-image:extracted-media/media/image2.png[image,width=642,height=172]
+image:extracted-media/media/ContentTypes2.png[image,width=642,height=172]
 
 * {blank}
 +
@@ -41,7 +41,7 @@ You be asked to provide
 
 *Name.* The name must be max 50 characters uppercase and lowercase letters, including numbers and special characters, (e.g. Conference_News). It’s mandatory.
 
-image:extracted-media/media/image3.png[image,width=642,height=210]
+image:extracted-media/media/ContentTypes3.png[image,width=642,height=172]
 
 * {blank}
 +
@@ -98,7 +98,7 @@ The Add button will start the configuration of the single attribute type. Even e
 
 For example, to configure the *Text* Attribute Type, choose Text from the Types drop-down menu and then press the blue Add button.
 
-image:extracted-media/media/image7.png[image,width=603,height=293]
+image:extracted-media/media/ContentTypes4.png[image,width=642,height=172]
 
 * {blank}
 +
@@ -143,7 +143,7 @@ Press the *Continue* button. The Text attribute type requires no additional conf
 
 You can add other Attributes Types.
 
-image:extracted-media/media/image8.png[image,width=642,height=300]
+image:extracted-media/media/ContentTypes5.png[image,width=642,height=172]
 
 * {blank}
 +
@@ -151,4 +151,4 @@ image:extracted-media/media/image8.png[image,width=642,height=300]
 Press the Save button. The Content type will be saved and displayed in the table list
 
 
-image:extracted-media/media/image4.png[image,width=642,height=174]
+image:extracted-media/media/ContentTypes6.png[image,width=642,height=172]
