@@ -30,7 +30,7 @@ Creating Content Models is fairly simple. From the App Builder application
 
 Select the CMS section and click on Content Models subsection
 
-image:extracted-media/media/image3.png[image,width=642,height=214]
+image:extracted-media/media/ContentModel1.png[image,width=642,height=214]
 
 * {blank}
 +
@@ -38,7 +38,7 @@ image:extracted-media/media/image3.png[image,width=642,height=214]
 Click on the Add *Content Model button* to create a new Content Model and to add it to the list.
 
 
-image:extracted-media/media/image2.png[image,width=642,height=214]
+image:extracted-media/media/ContentModel2.png[image,width=642,height=214]
 
 * {blank}
 +
@@ -76,4 +76,4 @@ Define the CSS style sheet file (this is an optional parameter)
 Press the Save button
 
 
-image:extracted-media/media/image4.png[image,width=642,height=285]
+image:extracted-media/media/ContentModel3.png[image,width=642,height=285]
